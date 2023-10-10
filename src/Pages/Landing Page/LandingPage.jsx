@@ -23,13 +23,13 @@ const LandingPage = () => {
     }
   }, [navigate,User]);
     return (
-      <div className="App-header">
+      <div className="App-header" id="appheaderbg">
         <div id="header">
           <Typography variant="h5">
             Choose Your Role
           </Typography>
         </div>
-        <div className="options">
+        <div className="options" id="roleoption">
           <Box component="span" sx={{ p: 2, border: "0px dashed grey" }}>
             <Tooltip title="Login as User" arrow>
               <Button

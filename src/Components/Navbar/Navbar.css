@@ -5,3 +5,17 @@
 #items{
     color: black;
 }
+.css-1t6c9ts{
+    
+    gap: 2vw;
+}
+
+.css-1t6c9ts a{
+    color: #06a4b3;
+}
+
+.css-1t6c9ts a:hover {
+    color: #0090ff;
+    font-size: 2vh;
+    text-decoration: none;
+}

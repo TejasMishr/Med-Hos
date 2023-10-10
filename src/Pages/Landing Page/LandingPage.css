@@ -11,4 +11,53 @@
 
   #header{
     margin-bottom: 5%;
+    
   }
+
+  #header h5 {
+    animation: blink-animation 1.5s infinite, smooth-color-transition 3s infinite;
+    text-shadow: 2px 2px 4px rgba(134, 65, 65, 0.5);
+}
+
+@keyframes blink-animation {
+    0%, 100% {
+        color: rgb(171, 35, 35); /* Darker red */
+    }
+    50% {
+        color: rgb(221, 64, 64); /* Slightly lighter red */
+    }
+}
+
+@keyframes smooth-color-transition {
+    0% {
+        color: rgb(221, 64, 64); /* Slightly lighter red */
+    }
+    100% {
+        color: rgb(171, 35, 35); /* Darker red */
+    }
+}
+  #appheaderbg{
+    margin-top: 5vh;
+    background: rgb(144,140,169);
+    background: radial-gradient(circle, rgba(144,140,169,1) 56%, rgba(131,131,149,1) 77%, rgba(177,167,167,1) 100%);
+  }
+  #roleoption > span > a > svg > path {
+    color: white;
+    transition: background-color 0.3s ease;
+
+  }
+
+  #roleoption > span > a > svg > path:hover {
+    background-color: blue;
+}
+#roleoption > span > a {
+  border: solid beige;
+    border-radius: 20px;
+  margin-bottom: 10px;
+  background: #1a0202;
+  transition: background-color 0.3s ease;
+}
+
+/* #roleoption > span > a :hover{
+  background: #990000;
+} */

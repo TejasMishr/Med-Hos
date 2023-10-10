@@ -320,6 +320,8 @@ function ResponsiveAppBar({ change }) {
                 Video Consult
               </NavLink>
             </Button> */}
+
+            
             <NavLink to="/user/doctor">Find Doctors</NavLink>
             <NavLink to={`/consult-room/${User?.user?.email}`}>
               Video Consult
